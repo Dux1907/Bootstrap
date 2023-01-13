@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap icons and pure CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- Using Bootstrap's navbar component -->
+    <nav class="navbar navbar-expand-lg  navbar" data-bs-theme="dark" style="background: #daac00;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-fingerprint ">Company Logo</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  pb-2" href="#">Services</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 shadow-regular box border-0" type="search" placeholder="Search"
+                        aria-label="Search" style="background: #fcc302;">
+                    <button class="btn1 me-3" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- <Bootstrap's grid system is used></Bootstrap> -->
+    <!-- Main -->
+    <!-- Utilies like fs,m and p are used to get a better layout. -->
+    <div class="container-fluid">
+        <!-- Bootstrap flexbox is used. -->
+        <div class="row justify-content-around" style="background-color: #fcc302;">
+            <div class="col-md-5 pt-5 ps-4">
+                <h3 class='fs-1 '>
+                    First, I wanted to be a veterinarian.
+                </h3>
+                <p class='fs-4 mt-3'>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nihil magnam esse harum veritatis ea
+                    repellat odio et ipsa. Tempora.
+                </p>
+                <button type="submit" class='rounded bg-light my-4'>Contact Us</button>
+                <button type="submit" class='rounded bg-info my-4'>Our Services</button>
+            </div>
+            <div class="col-md-4">
+                <img src='https://assets.vogue.in/photos/62502b8d90038a40f11ff27c/2:3/w_2560%2Cc_limit/Dog%25202.png'
+                    class='img-fluid rounded d-block d-sm-none d-md-block'
+                    style="background-color: #fcc302;width:100%;height:400px;">
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-md-5 pt-5 ps-4">
+                <h3 class='fs-1'>
+                    As a veterinarian and lover of animals.
+                </h3>
+                <p class='fs-4 mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id possimus soluta
+                    quibusdam reprehenderit unde repellendus tempore mollitia eum aperiam?</p>
+
+                <button class='rounded' style="background-color: #fcc302">Our Service</button>
+            </div>
+            <div class="col-md-5 d-flex flex-column justify-content-center">
+                <img src='https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HB4AT3D3IMI6TMPTWIZ74WAR54.jpg'
+                    class='img-fluid d-block d-sm-none d-md-block' style='width:100%;height:350px;'>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"
+        style="background: url(https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg) no-repeat center; background-size: cover;">
+        <div class="row info justify-content-around text-center align-content-center my-5"
+            style='background: rgb(252, 195, 2,.83); '>
+            <div class="col-md-3">
+                <!-- Bootstrap's icons are used. -->
+                <h1><i class="bi bi-house-heart-fill"></i></h1>
+                <h3>29472+</h3>
+                <h3>Happy clients</h3>
+            </div>
+            <div class="col-md-3">
+                <h1><i class="bi bi-basket-fill"></i></h1>
+                <h3>20+</h3>
+                <h3>Departments</h3>
+            </div>
+            <div class="col-md-3">
+                <h1><i class="bi bi-eyedropper"></i></h1>
+                <h3>1 million+</h3>
+                <h3>Vaccinations</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-around " style='background-color: #fcc302;'>
+            <div class="col-12 text-center mb-5" style='background-color: white;'>
+                <h1 class='fs-1 fw-bold'>
+                    Recent posts
+                </h1>
+                <p class='fs-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed porro doloremque nesciunt?
+                    Odio amet quis ratione mollitia. Aspernatur, vero accusantium.</p>
+            </div>
+        </div>
+        <!-- <div class="row d-flex justify-content-around align-content-center" style = 'background-color: #fcc302;'>
+            <div class="col-lg-3">
+                <div class="card text-center mb-5" style="width: 18rem;">
+                    <img src="https://4.bp.blogspot.com/-5jECXwTg6iA/XLdmkDDx3OI/AAAAAAAAEfc/hUsg50qNBewqJu_8lhRO3cT5ldlDuxcQgCLcBGAs/s1600/vet-help-dog.jpg" class="card-img-top img-fluid " alt="..." style = 'width:80%; height:220px'>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card text-center mb-5" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJM2f9-rIV9dQjV9UojELx15AWCRRfD7zDbO1Hy9nce7yC8K6uvev3_JK0FIXCU1b0VyQ&usqp=CAU" class="card-img-top img-fluid" alt="..." style = 'width:80%; height:220px'>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card text-center mb-5" style="width: 18rem;">
+                    <img src="https://petzz.org/static/images/display/service_image.png" class="card-img-top img-fluid" alt="..." style = 'width:80%;height:220px'>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div> -->
+        <div class="row justify-content-around " style='background-color: #fcc302;'>
+            <div class="col-sm-5 col-md-3 border border-dark rounded mb-3 pb-4">
+                <img src="https://4.bp.blogspot.com/-5jECXwTg6iA/XLdmkDDx3OI/AAAAAAAAEfc/hUsg50qNBewqJu_8lhRO3cT5ldlDuxcQgCLcBGAs/s1600/vet-help-dog.jpg"
+                    class="card-img-top img-fluid rounded " alt="...">
+                <h3>As a veterinarian and a lover of animals.</h3>
+                <p>January 11,2023</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur fugiat eveniet dicta
+                    facilis. Iusto.</p>
+                <a href='#'>Read more</a>
+            </div>
+            <div class="col-sm-5 col-md-3 border pb-4 mb-3 border-dark rounded ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJM2f9-rIV9dQjV9UojELx15AWCRRfD7zDbO1Hy9nce7yC8K6uvev3_JK0FIXCU1b0VyQ&usqp=CAU"
+                    class="card-img-top img-fluid rounded" alt="...">
+                <h3>As a veterinarian and a lover of animals.</h3>
+                <p>January 11,2023</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur fugiat eveniet dicta
+                    facilis. Iusto.</p>
+                <a href='#'>Read more</a>
+            </div>
+            <div class="col-sm-5 col-md-3 border pb-4  mb-3 border-dark rounded ">
+                <img src="https://helpemup.com/wp-content/uploads/2017/05/dreamstime_xl_73873542-904x602.jpg"
+                    class="card-img-top rounded img-fluid" alt="...">
+                <h3>As a veterinarian and a lover of animals.</h3>
+                <p>January 11,2023</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur fugiat eveniet dicta
+                    facilis. Iusto.</p>
+                <a href='#'>Read more</a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="row justify-content-around text-white bg-dark">
+            <div class="col-md-3 my-4">
+                <h3>About</h3>
+                <ul>
+                    <li> History</li>
+                    <li>Our Team</li>
+                    <li>Brand Guidelines</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="col-md-3 my-4">
+                <h3>Services</h3>
+                <ul>
+                    <li>How to Order</li>
+                    <li>Our Product</li>
+                    <li>Order status</li>
+                    <li>Promo</li>
+                    <li>Payment Method</li>
+                </ul>
+            </div>
+            <div class="col-md-4 my-4">
+                <h3>Title here</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <form class = 'mb-2'>
+                    <input type='text' class='rounded footsearch z-0'>
+                    <button type='submit' style='background-color: #00bec9;' class='rounded footbtn z-1'>
+                        <i class="bi bi-telegram"></i>
+                    </button>
+                </form>
+                <i class="bi bi-instagram fs-4 ms-1"></i>
+                <i class="bi bi-facebook ms-1 fs-4 "></i>
+                <i class="bi bi-twitter ms-1 fs-4 "></i>
+                <i class="bi bi-whatsapp ms-1 fs-4 "></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
