@@ -1,0 +1,80 @@
+ .bi-fingerprint {
+     font-size: 1.7em;
+ }
+
+ .btn1 {
+     z-index: 1;
+     background: #00bec9;
+     position: relative;
+     right: 36px;
+
+ }
+
+ .box {
+     outline-color: white !important;
+ }
+
+ form>.footbtn {
+     width: 42px;
+     height: 40px;
+     font-size: 1.2rem;
+     position: relative;
+     border:0;
+     right: 45px;
+     bottom:.5px;
+ }
+
+ form>.footsearch {
+     height: 40px;
+     background-color: #daac00;
+     border: black;
+ }
+
+ h1,
+ h3 {
+     font-size: 2rem;
+ }
+
+ .info {
+     min-height: 70vh;
+ }
+
+ li a {
+     font-size: 25px !important;
+ }
+
+ .nav-link {
+     color: white;
+ }
+
+ .navbar-nav {
+     margin-top: 4px;
+ }
+
+ ::placeholder {
+     color: white !important;
+     font-weight: 250;
+ }
+
+ .rounded {
+     font-size: 1.3rem;
+ }
+
+
+ @media only screen and (min-width:768px) {
+     img {
+         margin: 20px;
+     }
+ }
+
+ @media only screen and (max-width:767px) {
+     img {
+         padding: 40px;
+     }
+ }
+
+ @media only screen and (max-width :890px) {
+     form > .footsearch {
+         width: 150px;
+     }
+ }
